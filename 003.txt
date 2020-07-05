@@ -1,0 +1,109 @@
+/**************************************************************************
+ * IF STATEMENTS
+ *************************************************************************/
+
+// ========================================================================
+// Write a function that takes a number and returns
+// true if that number is a negative number or false
+// if that number is a positive number.
+// ========================================================================
+function isNegative(num) {
+  // Write your code here.
+}
+
+console.log("Should return true: " + isNegative(-1));
+console.log("Should return true: " + isNegative(-0.1));
+console.log("Should return true: " + isNegative(-103));
+console.log("Should return true: " + isNegative(-2));
+console.log("Should return false: " + isNegative(0));
+console.log("Should return false: " + isNegative(1));
+console.log("Should return false: " + isNegative(.5));
+console.log("Should return false: " + isNegative(1000));
+
+
+// ========================================================================
+// Part 1
+// Write a function that takes a string and returns true
+// if the first letter of that string is a capital "A"
+// and false otherwise.
+// ========================================================================
+function isStartWithA(str) {
+
+}
+
+console.log("Should return true: " + isStartWithA("Apple"));
+console.log("Should return true: " + isStartWithA("Abracadabra"));
+console.log("Should return false: " + isStartWithA("apple"));
+console.log("Should return false: " + isStartWithA("abracadabra"));
+console.log("Should return false: " + isStartWithA(" akin"));
+console.log("Should return false: " + isStartWithA("bee"));
+
+
+// ========================================================================
+// Part 2
+// Write a function that takes a string and returns true
+// if the first letter of that string is a capital "A"
+// and false otherwise.
+// ========================================================================
+function isStartWithA(str) {
+
+}
+
+console.log("Should return true: " + isStartWithA("Apple"));
+console.log("Should return true: " + isStartWithA("Abracadabra"));
+console.log("Should return false: " + isStartWithA("apple"));
+console.log("Should return false: " + isStartWithA("abracadabra"));
+console.log("Should return false: " + isStartWithA(" akin"));
+console.log("Should return false: " + isStartWithA("bee"));
+console.log("Should return false: " + isStartWithA());
+
+
+// ========================================================================
+/// Write a function that takes a string and returns true
+// if the second letter of that string is a lowercase "b"
+// and false otherwise.
+// ========================================================================
+function isSecondLetterB(str)
+{
+}
+
+console.log("Should return true: " + isSecondLetterB("Abba"));
+console.log("Should return true: " + isSecondLetterB("Abracadabra"));
+console.log("Should return false: " + isSecondLetterB("apple"));
+console.log("Should return false: " + isSecondLetterB("bracadaabra"));
+console.log("Should return false: " + isSecondLetterB(" aee"));
+console.log("Should return false: " + isSecondLetterB("apple"));
+console.log("Should return false: " + isSecondLetterB());
+console.log("Should return false: " + isSecondLetterB(''));
+
+
+// ========================================================================
+// Write a function that takes a string and returns the same string
+// but with a * in front of it.
+// ========================================================================
+function starMe(str) {
+
+}
+
+console.log("Should be *A: " + starMe("A"));
+console.log("Should be *: " + starMe(""));
+console.log("Should be *STAR: " + starMe("STAR"));
+console.log("Should be ***: " + starMe("**"));
+
+
+// ========================================================================
+// Write a function that takes a string and returns an asterisk
+// and the 2nd character of that string. If the string is less than
+// two characters long, then just return an asterisk. If the string is
+// null or undefined, also just return an asterisk.
+// ========================================================================
+function starMe(str)
+{
+
+}
+
+console.log("Should be *B: " + starMe("ABCDEF"));
+console.log("Should be *4: " + starMe("6454345"));
+console.log("Should be *T: " + starMe("STAR"));
+console.log("Should be *o: " + starMe("God save the Queen"));
+console.log("Should be *: " + starMe("A"));
