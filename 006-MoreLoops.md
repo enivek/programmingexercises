@@ -14,8 +14,7 @@ console.log("Should be equal to 100: " + result.length);
 console.log("Should be a list of numbers from 1 to 100 => " + result);
 ```
 
-# Write a function that takes in two numbers, w and h and displays a rectangle made of asterisks (*) with the 
-  number of characters specified in the width and height. 
+# Write a function that takes in two numbers, w and h and displays a rectangle made of asterisks (*) with the number of characters specified in the width and height. 
 ```javascript
 /**
  Write a function that takes in two numbers, w and h and displays a rectangle made of asterisks (*) with the 
