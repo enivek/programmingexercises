@@ -162,9 +162,7 @@ console.log("Should be: 7, 14 ,21, 28, 42, 49 => " + isDivisibleBy7Not5(1,50));
  *  5 x 10 = 50 
  */
 function multiplicationTable(num) {
-  for ( let i = 0; i < 10; i++) {
-    console.log('3*' + i + '=' + 3*i)
-  }
+    // Write your code here.
 }
 
 multiplicationTable(49);
@@ -176,7 +174,7 @@ multiplicationTable(49);
  * Write a program to return the factorial value of any number.
  */
 function factorial(num) {
-
+    // Write your code here.
 }
 
 console.log("Should be: 2! = 2, answer should be 2 => " + factorial(2));
@@ -189,7 +187,7 @@ console.log("Should be: 3! = 6, answer should be 6 => " + factorial(3));
  * Write a function to find the value of the power of one number raised to the power of another. (Do not use built-in method)
  */
 function power(base, pow) {
-
+    // Write your code here.
 }
 
 console.log("2^0 = 1. Answer should be 1 => " + power(2, 0));
@@ -202,7 +200,7 @@ console.log("2^2 = 4. Answer should be 4 => " + power(2, 2));
  * Write a program that accepts an integer and returns an with the digits reversed. For example, if the input is 12345, the output should be 54321.
  */
 function reverseNumber(num) {
-
+    // Write your code here.
 }
 
 console.log("Answer should be 321 =>" + reverseNumber(123));
@@ -215,7 +213,7 @@ console.log("Answer should be 9876 =>" + reverseNumber(6789));
  * Write a function that reads an array of integers, and then returns the sum of the odd numbers.
  */
 function sumOfOdd(arr) {
-
+    // Write your code here.
 }
 
 console.log("Answer should be 9 => " + sumOfOdd([1,2,3,4,5]));
@@ -229,7 +227,7 @@ console.log("Answer should be 5 => " + sumOfOdd([1,1,1,1,1,12,4,6,8,10]));
  * Write a program to calculate the GCF (Greatest Common Factor) of two given numbers.
  */
 function getGCF(numA, numB) {
-
+    // Write your code here.
 }
 
 console.log("GCF of 20 and 28 = 4. Answer should be 4 =>" + getGCF(20,28));
@@ -246,7 +244,7 @@ console.log("GCF of 24 and 36 = 12. Answer should be 2 =>" + getGCF(24,36));
  * Write a function to print out all Armstrong numbers between 1 and 500. 
  */
 function getArmstrongNumber() {
-
+    // Write your code here.
 }
 
 getArmstrongNumber();
@@ -259,7 +257,7 @@ getArmstrongNumber();
  * 1 + 1/2 + 1/3 + 1/4 + 1/5 + .... + 1/n 
  */
 function sumOfFractions(num) {
-
+    // Write your code here.
 }
 
 console.log("If num = 1,  answer should be: 1 => " + sumOfFractions(1));
@@ -276,7 +274,7 @@ console.log("If num = 10, answer should be: 2.92896825 => " + sumOfFractions(10)
  * where n is a positive integer and input by user.
  */
 function naturalLog(n) {
-
+    // Write your code here.
 }
 
 console.log( "ln(10) = 2.3025. Should be equal to 2.3025 => " + naturalLog(10) );
@@ -301,7 +299,7 @@ console.log( "ln(2)  = 0.6931. Should be equal to 0.6931 => " + naturalLog(2) );
  * sin x = x - x3/3! + x5/5! - x7/7! + x9/9! .......
  */
 function sine(x) {
-
+    // Write your code here.
 }
 
 console.log("");
@@ -314,8 +312,9 @@ console.log("");
  * cos x = 1 - x2/2! + x4/4! - x6/6! .....
  */
 function cosine(x) {
-
+    // Write your code here.
 }
 
 console.log("");
 ```
+    // Write your code here.
