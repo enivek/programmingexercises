@@ -161,9 +161,7 @@ console.log("Should return '(8.5,9)' => " + midpoint(12,8,5,10));
  *  - "Scalene" if the triangle is scalene, 
  *  - "Isoceles" if the triangle is isoceles 
  *  - "Equilateral" if the triangle is an equilateral triangle 
- *  - "Right" if the triangle is a right triangle 
- *  - "Other" if the triangle is some
- * other kind of triangle. 
+ *  - "Other" if the triangle is some other kind of triangle. 
  *  - "Not a triangle" if the sides given is not a 
  * triangle.
  */
@@ -177,9 +175,6 @@ console.log("Should return 'Scalene' => " + whatKindOfTriangle(16,11,21));
 console.log("Should return 'Scalene' => " + whatKindOfTriangle(12,21,13));
 console.log("Should return 'Isosceles' => " + whatKindOfTriangle(16,11,11));
 console.log("Should return 'Isosceles' => " + whatKindOfTriangle(10,10,12));
-console.log("Should return 'Right' => " + whatKindOfTriangle(12,5,13));
-console.log("Should return 'Right' => " + whatKindOfTriangle(5,4,3));
-console.log("Should return 'Right' => " + whatKindOfTriangle(15,12,9));
 console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(6,10,14));
 console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(2,16,13));
 console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(6,10,0));
