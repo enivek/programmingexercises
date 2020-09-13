@@ -138,6 +138,42 @@ console.log("Should be *STAR: " + starMe("STAR"));
 console.log("Should be ***: " + starMe("**"));
 ```
 
+
+
+```javascript
+/**
+ * Given the lengths of three sides of a triangle, 
+ * return a string that says: 
+ *  - "Scalene" if the triangle is scalene, 
+ *  - "Isoceles" if the triangle is isoceles 
+ *  - "Equilateral" if the triangle is an equilateral triangle 
+ *  - "Right" if the triangle is a right triangle 
+ *  - "Other" if the triangle is some
+ * other kind of triangle. 
+ *  - "Not a triangle" if the sides given is not a 
+ * triangle.
+ */
+function whatKindOfTriangle(side1, side2, side3) {
+
+}
+
+console.log("Should return 'Equilateral' => " + whatKindOfTriangle(1,1,1));
+console.log("Should return 'Equilateral' => " + whatKindOfTriangle(16,16,16));
+console.log("Should return 'Scalene' => " + whatKindOfTriangle(16,11,21));
+console.log("Should return 'Scalene' => " + whatKindOfTriangle(12,21,13));
+console.log("Should return 'Isosceles' => " + whatKindOfTriangle(16,11,11));
+console.log("Should return 'Isosceles' => " + whatKindOfTriangle(10,10,12));
+console.log("Should return 'Right' => " + whatKindOfTriangle(12,5,13));
+console.log("Should return 'Right' => " + whatKindOfTriangle(5,4,3));
+console.log("Should return 'Right' => " + whatKindOfTriangle(15,12,9));
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(6,10,14));
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(2,16,13));
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(6,10,0));
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(2,-1,13));
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(-2,5,13));
+
+```
+
 ```javascript
 // Write a function that takes a string and returns an asterisk and the 2nd character of that string. If the string is less than two characters long, then return an asterisk. If the string is null or undefined, also just return an asterisk.
 function starMe(str) {
