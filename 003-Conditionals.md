@@ -138,6 +138,20 @@ console.log("Should be *STAR: " + starMe("STAR"));
 console.log("Should be ***: " + starMe("**"));
 ```
 
+```javascript
+/**
+ * Given two points, (x1,y1) and (x2,y2) return the midpoint.
+ */
+function midpoint(x1, y1, x2, y2) {
+
+}
+
+console.log("Should return '(6,6)' => " + midpoint(1,1,11,11));
+console.log("Should return '(0,1)' => " + midpoint(5,8,-5,-6));
+console.log("Should return '(9,-0.5)' => " + midpoint(8,-2,10,1));
+console.log("Should return '(1,1)' => " + midpoint(1,1,1,1));
+console.log("Should return '(8.5,9)' => " + midpoint(12,8,5,10));
+```
 
 
 ```javascript
@@ -171,7 +185,8 @@ console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(2,16,13));
 console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(6,10,0));
 console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(2,-1,13));
 console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(-2,5,13));
-
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(-1,-1,-1));
+console.log("Should return 'Not a triangle' => " + whatKindOfTriangle(0,5,0));
 ```
 
 ```javascript
