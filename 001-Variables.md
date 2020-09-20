@@ -1,5 +1,14 @@
 # SIMPLE ASSIGNMENT
- 
+
+## Initialize a number.
+
+```javascript
+
+// WRITE THE STATEMENT BELOW THAT INITIALIZES A VARIABLE 'i' WITH 0.
+
+console.log('Should return 0:' + i);
+```
+
 ## Write a statement that increments the value i by 2.
 
 ```javascript

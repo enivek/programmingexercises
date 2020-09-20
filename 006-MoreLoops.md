@@ -3,7 +3,7 @@
 # Store 1 to 100 into an array
 ```javascript
 /**
-Write a function stores numbers from 1 to 100 in an array.
+Write a function returns an array of numbers from 1 to 100.
 **/
 function oneToOneHundred() {
     // Write your code here.

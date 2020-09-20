@@ -1,5 +1,11 @@
 # ARRAYS
 
+## Initialize an array.
+```javascript
+// Create an empty array.
+var arr .....
+```
+
 ## Write an array of numbers.
 ```javascript
 // Write an array of 5 numbers from 0 to 4 and store them into the variable named 'arr'.
@@ -22,3 +28,4 @@ var arr .....
 // How do I get its length?
 
 ```
+

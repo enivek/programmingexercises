@@ -1,16 +1,31 @@
-# FOR LOOPS 
+# LOOPS 
 
 ## Write a function that prints "Hello World" x number of times.
 ```javascript
+
 // Print "Hello World" x number of times.
+// Use a for loop.
 // This is how you print something: console.log("Hello World"); 
-function printMultiple(x) {
+function printMultipleWithForLoop(x) {
 
 }
 
 // Print "hello world" 5 times
-printMultiple(5); 
+printMultipleWithForLoop(5); 
+
+// Print "Hello World" x number of times.
+// Use a while loop.
+// This is how you print something: console.log("Hello World"); 
+function printMultipleWithWhileLoop(x) {
+
+}
+
+// Print "hello world" 5 times
+printMultipleWithWhileLoop(5); 
+
 ```
+
+
 
 ## Write a function prints out numbers N to M.
 ```javascript
