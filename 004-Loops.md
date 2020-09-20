@@ -99,7 +99,7 @@ function sumMeUp(n) {
 }
 
 console.log("Should be: 0 => " + sumMeUp(0));
-console.log("Should be: 0 => " + sumMeUp(1));
+console.log("Should be: 1 => " + sumMeUp(1));
 console.log("Should be: 3 => " + sumMeUp(2));
 console.log("Should be: 55 => " + sumMeUp(10));
 console.log("Should be: 1275 => " + sumMeUp(50));

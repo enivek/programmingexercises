@@ -233,7 +233,7 @@ function getGCF(numA, numB) {
 console.log("GCF of 20 and 28 = 4. Answer should be 4 =>" + getGCF(20,28));
 console.log("GCF of 25 and 35 = 5. Answer should be 5 =>" + getGCF(25,35));
 console.log("GCF of 2 and 8 = 2. Answer should be 2 =>" + getGCF(2,8));
-console.log("GCF of 24 and 36 = 12. Answer should be 2 =>" + getGCF(24,36));
+console.log("GCF of 24 and 36 = 12. Answer should be 12 =>" + getGCF(24,36));
 ``` 
 
 # Calculate the Armstrong number.
