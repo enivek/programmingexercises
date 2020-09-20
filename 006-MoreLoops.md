@@ -234,20 +234,28 @@ console.log("GCF of 20 and 28 = 4. Answer should be 4 =>" + getGCF(20,28));
 console.log("GCF of 25 and 35 = 5. Answer should be 5 =>" + getGCF(25,35));
 console.log("GCF of 2 and 8 = 2. Answer should be 2 =>" + getGCF(2,8));
 console.log("GCF of 24 and 36 = 12. Answer should be 12 =>" + getGCF(24,36));
+console.log("GCF of 92 and 20 = 4. Answer should be 4 =>" + getGCF(92,20));
+console.log("GCF of 18 and 12 = 6. Answer should be 6 =>" + getGCF(18,12));
 ``` 
 
-# Calculate the Armstrong number.
+# Calculate the Least Common Multiple.
 ```javascript
 /**
- * An Armstrong number is a number where the sum of the cubes of each digit is equal to the number itself.
- * For example, 153 is an Armstrong number because: 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
- * Write a function to print out all Armstrong numbers between 1 and 500. 
+ * Write a program to calculate the LCM (Least Common Multiple) of 
+ * two given numbers. 
+ * Hint: Keep getting the GCF of the two numbers until GCF = 1.
  */
-function getArmstrongNumber() {
+function getLCM(numA, numB) {
     // Write your code here.
 }
 
-getArmstrongNumber();
+console.log("LCM of 6, 9 = 18. Answer should be 18 =>" + getLCM(6,9));
+console.log("LCM of 5, 11 = 55. Answer should be 55 =>" + getLCM(5,11));
+console.log("LCM of 4, 18 = 36. Answer should be 36 =>" + getLCM(4,18));
+console.log("LCM of 4, 10 = 20. Answer should be 20 =>" + getLCM(4,10));
+console.log("LCM of 12, 15 = 60. Answer should be 60 =>" + getLCM(12,15));
+console.log("LCM of 22, 99 = 198. Answer should be 198 =>" + getLCM(22,99));
+
 ``` 
 
 # Calculate the sum of fractions.
@@ -264,6 +272,20 @@ console.log("If num = 1,  answer should be: 1 => " + sumOfFractions(1));
 console.log("If num = 3,  answer should be: 1.83333333 => " + sumOfFractions(3));
 console.log("If num = 5,  answer should be: 2.28333333 => " + sumOfFractions(5));
 console.log("If num = 10, answer should be: 2.92896825 => " + sumOfFractions(10));
+``` 
+
+# Calculate the Armstrong number.
+```javascript
+/**
+ * An Armstrong number is a number where the sum of the cubes of each digit is equal to the number itself.
+ * For example, 153 is an Armstrong number because: 153 = ( 1 * 1 * 1 ) + ( 5 * 5 * 5 ) + ( 3 * 3 * 3 )
+ * Write a function to print out all Armstrong numbers between 1 and 500. 
+ */
+function getArmstrongNumber() {
+    // Write your code here.
+}
+
+getArmstrongNumber();
 ``` 
 
 # Calculate the natural log.
