@@ -306,37 +306,71 @@ console.log( "ln(2)  = 0.6931. Should be equal to 0.6931 => " + naturalLog(2) );
 
 # Print out a triangle.
 ```javascript
-// Write a function to print this out with a for-loop:
-        1
-      222
-    33333
-  4444444
-555555555
+// 
+// Write a function to print a triangle with numbers. For example,
+// if I call a function like this: triangle(5), the output should be
+// something like this:
+// 
+//        1
+//      222
+//    33333
+//  4444444
+//555555555
+//
+// Pay attention to the spaces! The triangle is aligned to the right.
+//
+function triangle(num) {
+  // Write your code here.
+}
+
 ```
 
 # Compute the sin(x) of a number.
 ```javascript
 /**
- * Write a program to compute sin(x) for given x. We compute the sine of x using the series:
- * sin x = x - x3/3! + x5/5! - x7/7! + x9/9! .......
+ * Write a program to compute sin(x) for given x (radians). 
+ * We compute the sine of x using the series:
+ * sin x = x - x^3/3! + x^5/5! - x^7/7! + x^9/9! .......
  */
-function sine(x) {
-    // Write your code here.
+function sin(x) {
+  // Write your code here.
 }
 
-console.log("");
+function factorial(num) {
+  // Write your code here
+}
+
+function power(n, m) {
+ // Write your code here
+}
+
+console.log("Sin(PI/2) = " + Math.sin(Math.PI/2) + ". Your answer: " + sin(Math.PI/2));
+console.log("Sin(PI/4) = " + Math.sin(Math.PI/4) + ". Your answer: " + sin(Math.PI/4));
+console.log("Sin(PI/6) = " + Math.sin(Math.PI/6) + ". Your answer: " + sin(Math.PI/6));
 ```
 
 # Calculate the cos(x) of a number.
 ```javascript
+
 /**
- * Write a program to compute cos(x) for given x. We compute the sine of x using the series:
- * cos x = 1 - x2/2! + x4/4! - x6/6! .....
+ * Write a program to compute cos(x) for given x (radians). 
+ * We compute the cosine of x using the series:
+ * cos x = 1 - x^2/2! + x^4/4! - x^6/6! + x^8/8! .....
  */
-function cosine(x) {
-    // Write your code here.
+function cos(x) {
+  // Write your code here.
 }
 
-console.log("");
+function factorial(num) {
+  // Write your code here
+}
+
+function power(n, m) {
+ // Write your code here
+}
+
+console.log("cos(PI/2) = " + Math.cos(Math.PI/2) + ". Your answer: " + cos(Math.PI/2));
+console.log("cos(PI/4) = " + Math.cos(Math.PI/4) + ". Your answer: " + cos(Math.PI/4));
+console.log("cos(PI/6) = " + Math.cos(Math.PI/6) + ". Your answer: " + cos(Math.PI/6));
+
 ```
-    // Write your code here.
