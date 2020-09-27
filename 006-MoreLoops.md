@@ -30,6 +30,8 @@ function drawRect(w, h) {
 drawRect(3, 2);
 drawRect(5, 6);
 drawRect(8, 2);
+
+repl: https://repl.it/@KevinEwig/PrintARectangleAsterisk#index.js
 ```
 
 # Write a function that checks to see if a number is prime or not.
@@ -55,6 +57,8 @@ console.log('538 is not a prime number. This should be false: ' + isPrime(538));
 console.log('1874 is not a prime number. This should be false: ' + isPrime(1874));
 console.log('16222 is not a prime number. This should be false: ' + isPrime(16222));
 console.log('164938 is not a prime number. This should be false: ' + isPrime(164938));
+
+Repl: https://repl.it/@KevinEwig/CheckIfPrime#index.js
 ```
 
 # Write a function that returns the nth fibonacci number.
@@ -88,6 +92,8 @@ console.log('The 7th fibonacci is 5: Should be 13: ' + getMeAFibonacci(7));
 console.log('The 15th fibonacci is 610: Should be 610: ' + getMeAFibonacci(15));
 console.log('The 20th fibonacci is 6765: Should be 6765: ' + getMeAFibonacci(20));
 console.log('The 30th fibonacci is 832040: Should be 832040: ' + getMeAFibonacci(30));
+
+Repl: https://repl.it/@KevinEwig/CalculateFibonacci#index.js
 
 ```
 
@@ -192,6 +198,8 @@ function power(base, pow) {
 
 console.log("2^0 = 1. Answer should be 1 => " + power(2, 0));
 console.log("2^2 = 4. Answer should be 4 => " + power(2, 2));
+
+Repl: https://repl.it/@KevinEwig/CalculatePower#index.js
 ``` 
 
 # Reverse integers
@@ -205,6 +213,8 @@ function reverseNumber(num) {
 
 console.log("Answer should be 321 =>" + reverseNumber(123));
 console.log("Answer should be 9876 =>" + reverseNumber(6789));
+
+Repl: https://repl.it/@KevinEwig/ReverseDigitsOfNumber#index.js
 ``` 
 
 # Sum of all odd numbers
@@ -236,6 +246,8 @@ console.log("GCF of 2 and 8 = 2. Answer should be 2 =>" + getGCF(2,8));
 console.log("GCF of 24 and 36 = 12. Answer should be 12 =>" + getGCF(24,36));
 console.log("GCF of 92 and 20 = 4. Answer should be 4 =>" + getGCF(92,20));
 console.log("GCF of 18 and 12 = 6. Answer should be 6 =>" + getGCF(18,12));
+
+Repl: https://repl.it/@KevinEwig/CalculateGCF#index.js
 ``` 
 
 # Calculate the Least Common Multiple.
@@ -256,6 +268,8 @@ console.log("LCM of 4, 10 = 20. Answer should be 20 =>" + getLCM(4,10));
 console.log("LCM of 12, 15 = 60. Answer should be 60 =>" + getLCM(12,15));
 console.log("LCM of 22, 99 = 198. Answer should be 198 =>" + getLCM(22,99));
 
+Repl: https://repl.it/@KevinEwig/CalculateLCM#index.js
+
 ``` 
 
 # Calculate the sum of fractions.
@@ -272,6 +286,8 @@ console.log("If num = 1,  answer should be: 1 => " + sumOfFractions(1));
 console.log("If num = 3,  answer should be: 1.83333333 => " + sumOfFractions(3));
 console.log("If num = 5,  answer should be: 2.28333333 => " + sumOfFractions(5));
 console.log("If num = 10, answer should be: 2.92896825 => " + sumOfFractions(10));
+
+Repl: https://repl.it/@KevinEwig/CalculateSumOfFractions
 ``` 
 
 # Calculate the Armstrong number.
@@ -286,6 +302,8 @@ function getArmstrongNumber() {
 }
 
 getArmstrongNumber();
+
+Repl: https://repl.it/@KevinEwig/CalculateArmstrongNumber#index.js
 ``` 
 
 # Calculate the natural log.
@@ -302,6 +320,8 @@ function naturalLog(n) {
 console.log( "ln(10) = 2.3025. Should be equal to 2.3025 => " + naturalLog(10) );
 console.log( "ln(5)  = 1.6094. Should be equal to 1.6094 => " + naturalLog(5) );
 console.log( "ln(2)  = 0.6931. Should be equal to 0.6931 => " + naturalLog(2) );
+
+Repl: https://repl.it/@KevinEwig/CalculateNaturalLog#index.js
 ``` 
 
 # Print out a triangle.
@@ -322,6 +342,8 @@ console.log( "ln(2)  = 0.6931. Should be equal to 0.6931 => " + naturalLog(2) );
 function triangle(num) {
   // Write your code here.
 }
+
+Repl: https://repl.it/@KevinEwig/PrintRightAlignedTriangle#index.js
 
 ```
 
@@ -347,6 +369,8 @@ function power(n, m) {
 console.log("Sin(PI/2) = " + Math.sin(Math.PI/2) + ". Your answer: " + sin(Math.PI/2));
 console.log("Sin(PI/4) = " + Math.sin(Math.PI/4) + ". Your answer: " + sin(Math.PI/4));
 console.log("Sin(PI/6) = " + Math.sin(Math.PI/6) + ". Your answer: " + sin(Math.PI/6));
+
+repl: https://repl.it/@KevinEwig/CalculateSine#index.js
 ```
 
 # Calculate the cos(x) of a number.
@@ -373,4 +397,5 @@ console.log("cos(PI/2) = " + Math.cos(Math.PI/2) + ". Your answer: " + cos(Math.
 console.log("cos(PI/4) = " + Math.cos(Math.PI/4) + ". Your answer: " + cos(Math.PI/4));
 console.log("cos(PI/6) = " + Math.cos(Math.PI/6) + ". Your answer: " + cos(Math.PI/6));
 
+Repl: https://repl.it/@KevinEwig/CalculateCosine#index.js
 ```
