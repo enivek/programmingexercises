@@ -7,3 +7,5 @@ These are simple programming exercises aimed to help a beginner learn to code.
 * [004 - Loops](004-Loops.md)
 * [005 - Arrays](005-Arrays.md)
 * [006 - More Loops](006-MoreLoops.md)
+* [007 - More Arrays](006-MoreArrays.md)
+* 008 - Regular Expressions
