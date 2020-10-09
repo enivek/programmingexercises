@@ -1,108 +1,33 @@
 # LOOPS 
 
-## Write a function that prints "Hello World" x number of times.
-```javascript
+**Easy**
+* Print Hello World N times. [Repl](https://repl.it/@KevinEwig/PrintHelloWorldNTimes)
+* Print numbers from N to M. [Repl](https://repl.it/@KevinEwig/PrintNumbersFromNToM)
+* Print numbers from N to M in reverse. [Repl](https://repl.it/@KevinEwig/PrintNumbersFromNToMInReverse)
+* Print numbers from N to M but skips every other number. [Repl](https://repl.it/@KevinEwig/PrintNumbersFromNToMButSkips)
+* Get the sum of all numbers from 1 to N. [Repl](https://repl.it/@KevinEwig/SumOfAllNumbersUntilN)
+* Store 1 to 100 into an array. [Repl](https://repl.it/@KevinEwig/Store1To100IntoArray)
+* Find the value of the power of one number raised to the power of another. [Repl](https://repl.it/@KevinEwig/CalculatePower)
+* Factorial computation [Repl](https://repl.it/@KevinEwig/ComputeFactorial)
+* Print numbers and their cubes. [Repl](https://repl.it/@KevinEwig/PrintNumbersAndCubes)
 
-// Print "Hello World" x number of times.
-// Use a for loop.
-// This is how you print something: console.log("Hello World"); 
-function printMultipleWithForLoop(x) {
+**Medium**
+* Write a function that takes in two numbers, w and h and displays a rectangle made of asterisks (*) with the number of characters specified in the width and height. 
+[Repl](https://repl.it/@KevinEwig/PrintARectangleAsterisk)
+* Write a function that checks to see if a number is prime or not. [Repl](https://repl.it/@KevinEwig/CheckIfPrime)
+* Return the smallest number in an array. [Repl](https://repl.it/@KevinEwig/ReturnTheSmallestNumber)
+* Print out a triangle of asterisks. [Repl](https://repl.it/@KevinEwig/PrintATriangleOfAsterisks)
+* Sum of all odd numbers. [Repl](https://repl.it/@KevinEwig/SumOfAllOddNumbers)
+* Reverse the digits of a given Number. [Repl](https://repl.it/@KevinEwig/ReverseDigitsOfNumber)
+* Calculate the Greatest Common Factor. [Repl](https://repl.it/@KevinEwig/CalculateGCF)
+* Calculate the Least Common Multiple. [Repl](https://repl.it/@KevinEwig/CalculateLCM)
+* Calculate the natural log. [Repl](https://repl.it/@KevinEwig/CalculateNaturalLog)
+* Calculate the sum of fractions. [Repl](https://repl.it/@KevinEwig/CalculateSumOfFractions)
+* Check if a string is a palindrome. [Repl](https://repl.it/@KevinEwig/CheckIfPalindromeEasy)
 
-}
-
-// Print "hello world" 5 times
-printMultipleWithForLoop(5); 
-
-// Print "Hello World" x number of times.
-// Use a while loop.
-// This is how you print something: console.log("Hello World"); 
-function printMultipleWithWhileLoop(x) {
-
-}
-
-// Print "hello world" 5 times
-printMultipleWithWhileLoop(5); 
-
-```
-
-
-
-## Write a function prints out numbers N to M.
-```javascript
-// Given two integers, n and m, print out a list of sequential numbers from N to M inclusive.
-// Print the numbers into the console separated by a space character. 
-// Example, listIt(3, 10) should print 3 4 5 6 7 8 9 10
-// Example, listIt(1, 5) should print 1 2 3 4 5 
-function listIt(n, m) {
-
-}
-
-console.log("This should print 6 7 8 ... 22 23 24 25 26");
-listIt(6, 26);
-```
-
-## Write a function prints out numbers N to M in reverse.
-```javascript
-// Given two integers, n and m, print out a list of sequential numbers from N to M inclusive IN REVERSE.
-// Print the numbers into the console separated by a space character. 
-//
-// Example, listItBackwards(3, 10) should print 10 9 8 7 6 5 4 3
-// Example, listItBackwards(1, 5) should print 5 4 3 2 1
-function listItBackwards(n, m) {
-
-}
-
-console.log("This should print 26 25 24 23 22 ... 8 7 6");
-listItBackwards(6, 26);
-```
-
-## Write a function prints out numbers N to M but skips every other number
-```javascript
-// Given two integers, n and m, print out a list of sequential numbers from N to M inclusive.
-// Print the numbers into the console separated by a space character. 
-// The list should skip every other number.
-//
-// Example, listItWithSkipping(3, 10) should print 3 5 7 9 
-// Example, listItWithSkipping(1, 5) should print 1 3 5
-function listItWithSkipping(n, m) {
-
-}
-
-console.log("This should print 7 9 11 13 15 17 19 21 23");
-listItWithSkipping(7, 23);
-```
-
-## Write a function that takes in a number and returns the number of asterisks based on that number. Example, if num=1, then return 1 asterisk. If num=2, return 2 asterisks, etc.
-```javascript
-/**
- Write a function that takes in a number and returns the number of asterisks based on that number. Example, if num=1, then return 1 asterisk. If num=2, return 2 asterisks, etc.
-**/
-function starMeAgain(num) {
-    // Write your code here.
-}
-
-console.log("Should be: * => " + starMeAgain(1));
-console.log("Should be: ** => " + starMeAgain(2));
-console.log("Should be: ********** => " + starMeAgain(10));
-console.log("Should be: *** => " + starMeAgain(3));
-console.log("Should be:  => " + starMeAgain(0));
-console.log("Should be: ******************** => " + starMeAgain(20));
-```
-
-# Write a function that takes in a number and returns the sum of all numbers from 1 to n. If n is negative or equal to 0, then return 0.
-```javascript
-/**
- Write a function that takes in a number and returns the sum of all numbers from 1 to n. If n is negative or equal to 0, then return 0.
- **/
-function sumMeUp(n) {
-    // Write your code here.
-}
-
-console.log("Should be: 0 => " + sumMeUp(0));
-console.log("Should be: 1 => " + sumMeUp(1));
-console.log("Should be: 3 => " + sumMeUp(2));
-console.log("Should be: 55 => " + sumMeUp(10));
-console.log("Should be: 1275 => " + sumMeUp(50));
-```
-
-
+**Harder Questions**
+* Write a function that returns the nth fibonacci number. [Repl](https://repl.it/@KevinEwig/CalculateFibonacci)
+* Calculate the Armstrong number. [Repl](https://repl.it/@KevinEwig/CalculateArmstrongNumber)
+* Print out a right-aligned triangle. [Repl](https://repl.it/@KevinEwig/PrintRightAlignedTriangle)
+* Calculate the sin(x) of a number. [Repl](https://repl.it/@KevinEwig/CalculateSine)
+* Calculate the cos(x) of a number. [Repl](https://repl.it/@KevinEwig/CalculateCosine)
