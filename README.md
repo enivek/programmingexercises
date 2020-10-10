@@ -1,11 +1,9 @@
 # Programming exercises
 These are simple programming exercises aimed to help a beginner learn to code.
 
-* [001 - Variables](001-Variables.md)
-* [002 - Strings](002-Strings.md)
-* [003 - Conditional Statements](003-Conditionals.md)
-* [004 - Loops](004-Loops.md)
-* [005 - Arrays](005-Arrays.md)
-* [006 - More Loops](006-MoreLoops.md)
-* [007 - More Arrays](006-MoreArrays.md)
-* 008 - Regular Expressions
+* [Variables](010-Variables.md)
+* [Strings](020-Strings.md)
+* [Conditional Statements](030-Conditionals.md)
+* [Math](040-Math.md)
+* [Loops](050-Loops.md)
+* [Arrays](060-Arrays.md)
