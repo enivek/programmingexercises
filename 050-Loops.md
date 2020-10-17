@@ -15,7 +15,6 @@
 * Write a function that takes in two numbers, w and h and displays a rectangle made of asterisks (*) with the number of characters specified in the width and height. 
 [Repl](https://repl.it/@KevinEwig/PrintARectangleAsterisk)
 * Write a function that checks to see if a number is prime or not. [Repl](https://repl.it/@KevinEwig/CheckIfPrime)
-* Return the smallest number in an array. [Repl](https://repl.it/@KevinEwig/ReturnTheSmallestNumber)
 * Print out a triangle of asterisks. [Repl](https://repl.it/@KevinEwig/PrintATriangleOfAsterisks)
 * Sum of all odd numbers. [Repl](https://repl.it/@KevinEwig/SumOfAllOddNumbers)
 * Reverse the digits of a given Number. [Repl](https://repl.it/@KevinEwig/ReverseDigitsOfNumber)

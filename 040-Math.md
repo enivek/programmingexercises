@@ -7,3 +7,4 @@
 * Get the absolute value of a number. [Repl](https://repl.it/@KevinEwig/GetAbsoluteValue)
 * Get the midpoint between two points. [Repl](https://repl.it/@KevinEwig/GetTheMidpointBetweenTwoPoints)
 * Round a decimal number to the nearest ones. [Repl](https://repl.it/@KevinEwig/RoundANumberToNearestOnes)
+* Convert from Fahrenheit to Celcius. [Repl](https://repl.it/@KevinEwig/ConvertFromFToC)
