@@ -23,6 +23,7 @@
 * Calculate the natural log. [Repl](https://repl.it/@KevinEwig/CalculateNaturalLog)
 * Calculate the sum of fractions. [Repl](https://repl.it/@KevinEwig/CalculateSumOfFractions)
 * Check if a string is a palindrome. [Repl](https://repl.it/@KevinEwig/CheckIfPalindromeEasy)
+* Accept a string and return a new string with the cases swapped. [Repl](https://repl.it/@KevinEwig/SwapStringCase)
 
 **Harder Questions**
 * Write a function that returns the nth fibonacci number. [Repl](https://repl.it/@KevinEwig/CalculateFibonacci)

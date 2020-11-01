@@ -1,25 +1,20 @@
 # ARRAYS
 
 **Easy**
-* Create an empty array.
-* Write an array of 5 numbers from 0 to 4 and store them into the variable named 'arr'.
-* Write an array of 5 names (Peter, Mary, John, Winston, Thomas, Matthew) and store them into the variable 'arr'.
-* Given an array arr, how to determine its length?
+* Simple questions about arrays. [Repl](https://repl.it/@KevinEwig/SimpleArrayQuestions)
 * Return the smallest number in an array. [Repl](https://repl.it/@KevinEwig/ReturnTheSmallestNumber)
 
 **Medium**
 * Check whether an element is in an array or not. [Repl](https://repl.it/@KevinEwig/CheckIfElementIsInArray)
 * Clone an array. [Repl](https://repl.it/@KevinEwig/CloneAnArray)
-* Return the last element of an array.
-* Add some element to the beginning of the array.
-* Return a string containing each element in the array separated by "#".
-* Take a comma-separated string and converts it into an array.
+* Return the last element of an array. [Repl](https://repl.it/@KevinEwig/ReturnLastElementInArray)
+* Add an element to the beginning of the array. [Repl](https://repl.it/@KevinEwig/AddElementToBeginningOfArray)
+* Return a string containing each element in the array separated by "#". [Repl](https://repl.it/@KevinEwig/CombineArrayIntoHashString)
+* Take a comma-separated string and convert it into an array. [Repl](https://repl.it/@KevinEwig/CommaSeparatedStringToArray)
 * Take an array of integers and sort the array. [Repl](https://repl.it/@KevinEwig/SortAnArrayOfNumbers)
 * Take an array of strings and sort the array. [Repl](https://repl.it/@KevinEwig/SortAnArrayOfStrings)
-* Take an array and returns the the most frequent item of an array.
-* Accept a string and returns a new string with the cases swapped.
-* Take an array of numbers returns a new array with all the odd numbers removed. 
-* Take two arrays and returns the union of the two arrays. 
+* Take an array of numbers returns a new array with all the odd numbers removed. [Repl](https://repl.it/@KevinEwig/ArrayWithOddNumbersRemoved)
+* Take two arrays and returns the union of the two arrays. [Repl](https://repl.it/@KevinEwig/UnionOfTwoArrays)
 * Take two arrays and returns the intersection of the two arrays. [Repl](https://repl.it/@KevinEwig/IntersectionOfTwoArrays)
-
+* Take an array and return the the most frequent item of an array. [Repl](https://repl.it/@KevinEwig/GetMostFrequentElement)
 
